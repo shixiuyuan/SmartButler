@@ -1,4 +1,4 @@
-package com.example.xy.smartbutler.application;
+2package com.example.xy.smartbutler.application;
 
 import android.app.Application;
 
@@ -12,7 +12,7 @@ import android.app.Application;
  */
 public class BaseApplication extends Application {
 
-    //创建11
+    //创建112
    @Override
     public void onCreate() {
        super.onCreate();
