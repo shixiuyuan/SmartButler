@@ -1,4 +1,4 @@
-2package com.example.xy.smartbutler.application;
+package com.example.xy.smartbutler.application;
 
 import android.app.Application;
 
