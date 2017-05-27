@@ -12,7 +12,7 @@ import android.app.Application;
  */
 public class BaseApplication extends Application {
 
-    //创建112
+    //创建1121
    @Override
     public void onCreate() {
        super.onCreate();
