@@ -7,5 +7,10 @@
     android:orientation="vertical">
 
 
+    <TextView
+        android:text="管家"
+        android:textSize ="30sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 
 </LinearLayout>
