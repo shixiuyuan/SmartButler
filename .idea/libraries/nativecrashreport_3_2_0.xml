@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="nativecrashreport-3.2.0">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.android/build-cache/b5d90591a915ef4304a5b221918b6b47f1108bd6/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/b5d90591a915ef4304a5b221918b6b47f1108bd6/output/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.tencent.bugly/nativecrashreport/3.2.0/ecff7d9e7db92d57075789a6c74f11719b5ec207/nativecrashreport-3.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
