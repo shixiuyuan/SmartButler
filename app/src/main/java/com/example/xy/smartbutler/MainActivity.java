@@ -16,6 +16,7 @@ import com.example.xy.smartbutler.fragment.GirlFragment;
 import com.example.xy.smartbutler.fragment.UserFragment;
 import com.example.xy.smartbutler.fragment.WechatFragment;
 import com.example.xy.smartbutler.ui.SettingActivity;
+import com.tencent.bugly.crashreport.CrashReport;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -42,6 +43,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         initDate();
         initView();
+
     }
 
     //初始化数据

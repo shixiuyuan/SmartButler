@@ -9,13 +9,10 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:orientation="vertical"
-        android:layout_alignParentStart="true"
-        android:id="@+id/linearLayout">
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="343dp"
-        android:src="@drawable/guide_two"/>
+        android:id="@+id/linearLayout"
+        android:layout_marginTop="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
 
     </LinearLayout>
     <Button
@@ -26,9 +23,9 @@
         android:text="进入主页"
         android:textColor="@android:color/white"
         android:layout_weight="0.22"
+        android:layout_marginBottom="44dp"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="68dp" />
+        android:layout_centerHorizontal="true" />
 
     <TextView
         android:id="@+id/tv_pager_2"
@@ -36,7 +33,16 @@
         android:layout_height="wrap_content"
         android:text="罗竣元"
         android:textSize="30sp"
-        android:layout_marginTop="20dp"
-        android:layout_below="@+id/linearLayout"
-        android:layout_centerHorizontal="true" />
+        android:layout_above="@+id/btn_start"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="19dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="343dp"
+        android:src="@drawable/guide_three"
+        android:layout_above="@+id/tv_pager_2"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="16dp" />
 </RelativeLayout>

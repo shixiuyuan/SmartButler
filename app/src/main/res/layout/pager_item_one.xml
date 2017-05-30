@@ -4,12 +4,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:weightSum="1">
 
     <ImageView
+        android:id="@+id/imageView"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/guide_first"/>
+        android:layout_height="240dp"
+        android:layout_weight="0.21"
+        android:src="@drawable/guide_first" />
 
     <TextView
         android:id="@+id/tv_pager_1"
@@ -17,7 +20,7 @@
         android:layout_height="wrap_content"
         android:text="组长-史秀源"
         android:layout_marginTop="10dp"
-        android:textSize="50sp"/>
+        android:textSize="30sp"/>
 
 
 </LinearLayout>
