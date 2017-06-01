@@ -18,7 +18,7 @@
         android:layout_height="wrap_content" />
 
     <Button
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="11dp"
         android:textColor="@android:color/white"
         android:background="@drawable/button_bg"
         android:text="登录"
@@ -27,7 +27,7 @@
 
     <Button
         android:id="@+id/btn_registered "
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="11dp"
         android:text="注册"
         android:textColor="@android:color/white"
         android:background="@drawable/button_bg"
