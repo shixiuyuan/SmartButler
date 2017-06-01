@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="crashreport-2.6.0">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.android/build-cache/476aa133b1df3b253582b1410ce45e376224c70f/output/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.android/build-cache/476aa133b1df3b253582b1410ce45e376224c70f/output/res" />
+      <root url="file://$USER_HOME$/.android/build-cache/4fc0ade7142770de404e24e0c784fcac3ef15888/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/4fc0ade7142770de404e24e0c784fcac3ef15888/output/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
