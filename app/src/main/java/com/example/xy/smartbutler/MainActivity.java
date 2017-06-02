@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     //Fragment
     private List<Fragment> mFragment;
     //悬浮窗
-    private FloatingActionButton fab_setting;
+    //private FloatingActionButton fab_setting;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -63,10 +63,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     //初始化View
     private void initView() {
-        fab_setting = (FloatingActionButton) findViewById(R.id.fab_setting);
-        fab_setting.setOnClickListener(this);
+        //fab_setting = (FloatingActionButton) findViewById(R.id.fab_setting);
+        //fab_setting.setOnClickListener(this);
         //默认隐藏 右下角的悬浮设置按钮,滑到第二,三,四屏显示出来
-        fab_setting.setVisibility(View.GONE);
+       // fab_setting.setVisibility(View.GONE);
         mTabLayout = (TabLayout) findViewById(R.id.mTabLayout);
         mViewPager = (ViewPager) findViewById(R.id.mViewPager);
 
@@ -85,9 +85,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             public void onPageSelected(int position) {
                 Log.i("TAG","positon:" + position);
                 if(position == 0){
-                    fab_setting.setVisibility(View.GONE);
+                  //  fab_setting.setVisibility(View.GONE);
                 }else {
-                    fab_setting.setVisibility(View.VISIBLE);
+                 //   fab_setting.setVisibility(View.VISIBLE);
                 }
             }
 
