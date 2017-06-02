@@ -21,7 +21,8 @@ import com.tencent.bugly.crashreport.CrashReport;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+public class MainActivity extends AppCompatActivity //implements View.OnClickListener
+{
     //TabLayout
     private TabLayout mTabLayout;
     //ViewPager
@@ -120,13 +121,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         //绑定
         mTabLayout.setupWithViewPager(mViewPager);
     }
-
-    @Override
-    public void onClick(View v) {
-        switch(v.getId()){
-            case R.id.fab_setting:
-                startActivity(new Intent(this, SettingActivity.class));
-                break;
-        }
-    }
+//
+//    @Override
+//    public void onClick(View v) {
+//        switch(v.getId()){
+//            case R.id.fab_setting:
+//                startActivity(new Intent(this, SettingActivity.class));
+//                break;
+//        }
+//    }
 }
