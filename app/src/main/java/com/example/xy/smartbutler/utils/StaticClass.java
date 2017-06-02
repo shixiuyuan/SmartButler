@@ -23,5 +23,11 @@ public class StaticClass {
     public static final String BMOB_APP_ID = "079a314d77e4bbe61847f7b7fa8a1874";
 
     //快递单号查询 key
-    public static final String COURIER_KEY = " 150caee7ce4e377f5e178fb89384c9f5";
+    public static final String COURIER_KEY = "150caee7ce4e377f5e178fb89384c9f5";
+
+    //问答机器人key
+    public static final String CHAT_LIST_KEY ="82558e3c5e0f4cfd957482d864f600ba";
+
+    //微信精选key
+    public static final String WECHAT_KEY = "78f723dccf85aea324a3cf0daac97f35";
 }

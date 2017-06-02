@@ -19,7 +19,7 @@
     <string name="text_girl">美女社区</string>
     <string name="text_user_info">个人中心</string>
 
-    <string name="text_hello_tts">你好，我是小优！</string>
+    <string name="text_hello_tts">你好，我是你的服务管家-问答机器人！</string>
     <string name="text_more_length">输入长度超出限制</string>
     <string name="text_tost_empty">输入框不能为空</string>
     <string name="text_welfare">福利</string>
@@ -42,8 +42,8 @@
     <string name="text_Ddwnload_successful">下载成功</string>
     <string name="text_dwnload_failure">下载失败</string>
     <string name="text_unknown">未知</string>
-    <string name="text_courier_company">快递公司</string>
-    <string name="text_courier_number">快递单号</string>
+    <string name="text_courier_company">请输入快递公司的字母简称</string>
+    <string name="text_courier_number">请输入您要查询的快递单号</string>
     <string name="text_editor_password">修改密码</string>
     <string name="text_now_password">旧密码</string>
     <string name="text_new_password">新密码</string>

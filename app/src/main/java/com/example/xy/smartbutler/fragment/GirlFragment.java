@@ -36,7 +36,7 @@ import java.util.List;
  *     包名:  com.example.xy.smartbutler.fragment
  *    文件名: GirlFragment
  *  创建时间: 2017/5/27 23:11
- *   描述 :   美女社区
+ *   描述 :   美女社区--->改成了快递查询
  */
 public class GirlFragment extends Fragment implements View.OnClickListener {
 
