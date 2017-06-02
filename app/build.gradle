@@ -41,7 +41,13 @@ dependencies {
     //其中latest.release指代最新Bugly NDK版本号，也可以指定明确的版本号,例如3.0
     compile 'com.tencent.bugly:nativecrashreport:latest.release'
     //bomb.cn   Bmob 后端云,全方位一体化的后端服务平台
-    compile 'cn.bmob.android:bmob-sdk:3.5.5'
+    compile ('cn.bmob.android:bmob-sdk:3.5.5'){
+        exclude group:'io.reactivex'
+    }
     //CircleImageView,个人资料编辑的圆形头像
     compile 'de.hdodenhof:circleimageview:2.1.0'
+    //RxVolley一个基于Volley的网络请求库；
+    compile ('com.kymjs.rxvolley:rxvolley:1.1.4'){
+        exclude group:'io.reactivex'
+    }
 }

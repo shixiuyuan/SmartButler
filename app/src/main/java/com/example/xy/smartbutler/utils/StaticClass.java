@@ -21,4 +21,7 @@ public class StaticClass {
 
     //Bmob key
     public static final String BMOB_APP_ID = "079a314d77e4bbe61847f7b7fa8a1874";
+
+    //快递单号查询 key
+    public static final String COURIER_KEY = " 150caee7ce4e377f5e178fb89384c9f5";
 }

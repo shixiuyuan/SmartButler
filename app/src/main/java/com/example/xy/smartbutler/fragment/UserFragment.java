@@ -74,8 +74,11 @@ public class UserFragment extends Fragment implements View.OnClickListener {
 
     //初始化View
     private void findView(View view) {
+        //个人中心中的退出登录按钮
         btn_exit_user = (Button) view.findViewById(R.id.btn_exit_user);
         btn_exit_user.setOnClickListener(this);
+
+        //个人中心中的编辑
         edit_user = (TextView) view.findViewById(R.id.edit_user);
         edit_user.setOnClickListener(this);
 
